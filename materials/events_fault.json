@@ -1,0 +1,83 @@
+[
+  {
+    "id": 0,
+    "t_s": 0,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "正常开始。"
+  },
+  {
+    "id": 1,
+    "t_s": 1,
+    "data_valid": false,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "数据异常。"
+  },
+  {
+    "id": 2,
+    "t_s": 2,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "短暂恢复一条。"
+  },
+  {
+    "id": 3,
+    "t_s": 3,
+    "data_valid": false,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "再次异常。"
+  },
+  {
+    "id": 4,
+    "t_s": 4,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "重新恢复第一条。"
+  },
+  {
+    "id": 5,
+    "t_s": 5,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "连续恢复第二条。"
+  },
+  {
+    "id": 6,
+    "t_s": 6,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": true,
+    "path_found": true,
+    "note": "数据正常，但前方出现障碍。"
+  },
+  {
+    "id": 7,
+    "t_s": 7,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "方向通畅且路径可用。"
+  },
+  {
+    "id": 8,
+    "t_s": 8,
+    "data_valid": true,
+    "goal_reached": true,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "到达目标。"
+  }
+]

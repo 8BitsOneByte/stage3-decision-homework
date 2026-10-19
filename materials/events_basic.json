@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "t_s": 0,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": false,
+    "note": "任务开始，暂时没有路径。"
+  },
+  {
+    "id": 1,
+    "t_s": 1,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "导航模块返回了可用路径。"
+  },
+  {
+    "id": 2,
+    "t_s": 2,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "继续前进。"
+  },
+  {
+    "id": 3,
+    "t_s": 3,
+    "data_valid": true,
+    "goal_reached": true,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "到达目标。"
+  }
+]

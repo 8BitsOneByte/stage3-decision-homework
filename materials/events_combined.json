@@ -1,0 +1,146 @@
+[
+  {
+    "id": 0,
+    "t_s": 0,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": false,
+    "note": "等待初始路径。"
+  },
+  {
+    "id": 1,
+    "t_s": 1,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "收到路径。"
+  },
+  {
+    "id": 2,
+    "t_s": 2,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "继续导航。"
+  },
+  {
+    "id": 3,
+    "t_s": 3,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": true,
+    "path_found": true,
+    "note": "有路径，但前方有障碍。"
+  },
+  {
+    "id": 4,
+    "t_s": 4,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": false,
+    "note": "前进方向通畅，等待新路径。"
+  },
+  {
+    "id": 5,
+    "t_s": 5,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "新路径到达。"
+  },
+  {
+    "id": 6,
+    "t_s": 6,
+    "data_valid": false,
+    "goal_reached": true,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "数据无效，同时到达标志为真。"
+  },
+  {
+    "id": 7,
+    "t_s": 7,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "恢复第一条有效数据。"
+  },
+  {
+    "id": 8,
+    "t_s": 8,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": true,
+    "path_found": true,
+    "note": "恢复第二条有效数据，但前方有障碍。"
+  },
+  {
+    "id": 9,
+    "t_s": 9,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "方向通畅，继续导航。"
+  },
+  {
+    "id": 10,
+    "t_s": 10,
+    "data_valid": false,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "再次数据异常。"
+  },
+  {
+    "id": 11,
+    "t_s": 11,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "短暂恢复一条。"
+  },
+  {
+    "id": 12,
+    "t_s": 12,
+    "data_valid": false,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "又一次数据异常。"
+  },
+  {
+    "id": 13,
+    "t_s": 13,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "重新恢复第一条。"
+  },
+  {
+    "id": 14,
+    "t_s": 14,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "连续恢复第二条。"
+  },
+  {
+    "id": 15,
+    "t_s": 15,
+    "data_valid": true,
+    "goal_reached": true,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "正常到达目标。"
+  }
+]

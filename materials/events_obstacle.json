@@ -1,0 +1,65 @@
+[
+  {
+    "id": 0,
+    "t_s": 0,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": false,
+    "note": "等待路径。"
+  },
+  {
+    "id": 1,
+    "t_s": 1,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "路径可用。"
+  },
+  {
+    "id": 2,
+    "t_s": 2,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": true,
+    "path_found": true,
+    "note": "前方出现障碍，但旧路径仍显示可用。"
+  },
+  {
+    "id": 3,
+    "t_s": 3,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": true,
+    "path_found": false,
+    "note": "障碍仍在，路径已失效。"
+  },
+  {
+    "id": 4,
+    "t_s": 4,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": false,
+    "note": "前进方向恢复通畅，新路径尚未返回。"
+  },
+  {
+    "id": 5,
+    "t_s": 5,
+    "data_valid": true,
+    "goal_reached": false,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "获得新路径。"
+  },
+  {
+    "id": 6,
+    "t_s": 6,
+    "data_valid": true,
+    "goal_reached": true,
+    "obstacle_ahead": false,
+    "path_found": true,
+    "note": "到达目标。"
+  }
+]
